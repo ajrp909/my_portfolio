@@ -1,3 +1,9 @@
 function buttonBool() {
-    document.getElementById("button-test").innerHTML = "OFF"
+    currentMessage = document.getElementById("button").innerHTML
+    console.log(currentMessage)
+    if (currentMessage === "ON"){
+        document.getElementById("button").innerHTML = "OFF"
+    } else {
+        document.getElementById("button").innerHTML = "ON"
+    }  
 }
