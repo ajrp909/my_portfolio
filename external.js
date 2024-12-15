@@ -1,3 +1,3 @@
 function buttonBool() {
-    console.log("Hello World!")
+    document.getElementById("button-test").innerHTML = "OFF"
 }
